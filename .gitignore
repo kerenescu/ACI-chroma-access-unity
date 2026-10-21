@@ -29,3 +29,6 @@ __pycache__/
 *.bak
 .DS_Store
 Thumbs.db
+
+# User-generated image exports
+/Exports/

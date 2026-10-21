@@ -1,0 +1,30 @@
+{
+  "origin": "User-supplied attachments; original file bytes retained. No external authorship or license was established.",
+  "assumption": "Inputs interpreted as sRGB SDR color textures.",
+  "images": [
+    {
+      "file": "bunny-illustration.png",
+      "label": "Bunny illustration",
+      "suppliedFilename": "image(20261011-102546).png",
+      "width": 736,
+      "height": 1472,
+      "sha256": "7346b6114bd1afe5a4a9d768e7d2a8998aa9fd63e4e6ad67ed744c3257a942a3"
+    },
+    {
+      "file": "outdoor-photo.png",
+      "label": "Outdoor photo",
+      "suppliedFilename": "codex-clipboard-fba58f21-59e4-424f-be51-c0f0f53320b9.png",
+      "width": 1049,
+      "height": 1046,
+      "sha256": "aa395d12e24b7bc690812eff0dd0b82d91139e3f70767d2c4581f4977dc649eb"
+    },
+    {
+      "file": "abandoned-tent.png",
+      "label": "Abandoned tent",
+      "suppliedFilename": "tent_abandonat.png",
+      "width": 3840,
+      "height": 2160,
+      "sha256": "b8d495828faeda7f32e09ee1668574d8e7f9a2eebb85cd310908a3a1cc4d74d9"
+    }
+  ]
+}

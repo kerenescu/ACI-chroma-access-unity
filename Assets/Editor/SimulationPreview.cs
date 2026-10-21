@@ -13,7 +13,7 @@ namespace ChromaAccess.Editor
         [MenuItem("Tools/ChromaAccess/Simulation Preview")]
         private static void Open()
         {
-            GetWindow<SimulationPreview>("ChromaAccess").minSize = new Vector2(395, 355);
+            GetWindow<SimulationPreview>("ChromaAccess").minSize = new Vector2(395, 390);
         }
 
         internal static FullScreenPassRendererFeature FindFeature(string name)
@@ -72,6 +72,8 @@ namespace ChromaAccess.Editor
                 EditorGUILayout.HelpBox("Inspect the Game view in Edit mode. Tritanomaly is an approximation, not tritanopia. The palette experiment targets deuteranopia only.", MessageType.Info);
             }
             catch (Exception exception) { EditorGUILayout.HelpBox(exception.Message, MessageType.Error); }
+            EditorGUILayout.Space();
+            if (GUILayout.Button("Open image simulations")) ImageSimulationWindow.Open();
         }
 
         internal static void SetPreview(bool recolored, SimulationKind kind)

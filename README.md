@@ -49,6 +49,12 @@ This question describes the project's research direction. Sprint 1 establishes t
 
 Repeat capture with **Tools > ChromaAccess > Capture Palette Comparisons**. This renders cloned objects in an isolated preview scene and restores the simulation state. It does not save changes to ControlledColors. Player-facing palette presets, preference calibration, and general adaptive recoloring remain proposals.
 
+## Simulate the supplied images
+
+Open **Tools > ChromaAccess > Image Simulation**. Select one of the three example images, choose Deuteranopia, Protanopia, or Tritanomaly (approximation), and switch between a single view, comparison with Original, or all four views. The window preserves image proportions and exports full imported-resolution PNGs. It also accepts imported PNG/JPG Default sRGB textures through its Image field. See the [image workspace guide](docs/research/image-simulation.md).
+
+The source images are included under `Assets/Images/SimulationSamples`. **Tools > ChromaAccess > Export All Example Images** writes twelve PNGs to a new local `Exports/ImageSimulations` folder; generated exports are ignored by Git.
+
 ## Open the current demo
 
 1. Open this project with **Unity 6000.3.11f1**.
@@ -386,6 +392,24 @@ The validation temporarily replaces the identity material with an Editor-only so
 **Limitations:** Historical test results remain evidence of earlier runs, not executable Unity tests in the cleaned project. General recoloring, participant benefit, temporal stability, and GPU measurements remain future work. The S-cone mode remains approximate tritanomaly rather than tritanopia.
 
 **Further study:** Select the published recoloring baseline, define semantic-color constraints, and evaluate candidate palettes with suitable gameplay tasks.
+
+### INT-014 - Apply the existing simulations to supplied images
+
+**Date:** 2026-10-21. **Implementation:** assistant, following the user's request to add three supplied images and apply the three existing simulation modes.
+
+**Intervention:** Added the original PNGs, a scoped import policy, a dedicated image shader, and an Editor image simulation window. Added example selection, a custom texture field, single/comparison/four-view layouts, and PNG export. Added an entry point from the existing scene preview and excluded generated Exports from Git. Documented image provenance, controls, color processing, and source hashes.
+
+**Purpose:** Let the team inspect Deuteranopia, Protanopia, and approximate Tritanomaly on illustrations and a photograph using the project's existing fixed severity-1.0 coefficients.
+
+**Motivation:** Extend the controlled patch comparison to varied image content while preserving source dimensions and providing an Original reference. Keep the scene demonstration and static-image workflow independent.
+
+**Sources:** The existing Machado (2009) coefficient implementation, the three user-supplied files, and Unity 6.3 Graphics.Blit, RenderTextureReadWrite, and TextureImporter.sRGBTexture documentation. The [image workspace guide](docs/research/image-simulation.md) links these sources; the [source manifest](docs/research/image-sources.json) records file hashes and supplied filenames.
+
+**Verification and evidence:** Unity 6000.3.11f1 compiled and exported all twelve image/mode combinations in an isolated project with Direct3D12 and Linear color space. The three Original exports exactly matched their source RGBA pixels, including orientation and dimensions. The nine simulated exports matched an independent NumPy float64 sRGB/matrix/sRGB calculation within 1/255 per RGB channel, with zero pixels outside tolerance and no alpha mismatches. Source dimensions remained 736 x 1472, 1049 x 1046, and 3840 x 2160. Original source-file hashes were preserved. Initial checks exposed small near-black discrepancies when relying on hardware texture sRGB decode; the final image path explicitly decodes source bytes in the shader. No Unity test runners or validator menus were reintroduced. Existing scene and renderer asset hashes were preserved; final local-link and metadata checks passed.
+
+**Limitations:** Fixed severity, static SDR images interpreted as sRGB, approximate Tritanomaly rather than Tritanopia, and an Editor interface. Image comparisons do not establish perceptual accuracy for an individual or improved task performance. General recoloring and participant evaluation remain future work.
+
+**Further study:** Record image regions with possible lost distinctions, study gamut and source-profile effects, and define semantic constraints before recoloring natural images.
 
 ## Historical validation evidence
 
