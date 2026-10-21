@@ -1,0 +1,196 @@
+{
+    "success": true,
+    "message": "Simulation matched the linear RGB CPU reference within 1/255, including neutral, gamut and asymmetric probes; identity and restoration passed.",
+    "timestampUtc": "2026-10-21T15:35:29.6825647Z",
+    "unityVersion": "6000.3.11f1",
+    "urpVersion": "17.3.0",
+    "graphicsApi": "Direct3D12",
+    "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+    "colorSpace": "Linear",
+    "pipelineAsset": "Assets/Settings/PC_RPAsset.asset",
+    "qualityLevel": "PC",
+    "scenePath": "Assets/Scenes/ControlledColors.unity",
+    "sceneHadUnsavedChanges": false,
+    "sceneHasUnsavedChangesAfterValidation": false,
+    "width": 960,
+    "height": 540,
+    "toleranceRgb8": 1,
+    "captureFormat": "sRGB ARGB32, 24-bit depth, single-sample",
+    "model": "Machado, Oliveira, Fernandes (2009), Tritanomaly (approximation), severity 1.0",
+    "simulationType": "Tritanomaly",
+    "severity": 1.0,
+    "matrixRowMajor": [
+        1.255528,
+        -0.076749,
+        -0.178779,
+        -0.078411,
+        0.930809,
+        0.147602,
+        0.004733,
+        0.691367,
+        0.3039
+    ],
+    "source": "https://www.inf.ufrgs.br/~oliveira/pubs_files/CVD_Simulation/CVD_Simulation.html#Tutorial",
+    "injectionPoint": "AfterRenderingPostProcessing",
+    "fetchColorBuffer": true,
+    "requirements": "None",
+    "identityRegressionPassed": true,
+    "previewModeSwitchPassed": true,
+    "effectStateRestored": true,
+    "temporarySceneStateRestored": true,
+    "baselineRepeat": {
+        "differingPixels": 0,
+        "pixelsOutsideTolerance": 0,
+        "maxRgbError": 0,
+        "alphaMismatches": 0
+    },
+    "simulation": {
+        "differingPixels": 0,
+        "pixelsOutsideTolerance": 0,
+        "maxRgbError": 0,
+        "alphaMismatches": 0
+    },
+    "neutralProbes": {
+        "differingPixels": 0,
+        "pixelsOutsideTolerance": 0,
+        "maxRgbError": 0,
+        "alphaMismatches": 0
+    },
+    "gamutProbes": {
+        "differingPixels": 0,
+        "pixelsOutsideTolerance": 0,
+        "maxRgbError": 0,
+        "alphaMismatches": 0
+    },
+    "asymmetricSimulation": {
+        "differingPixels": 0,
+        "pixelsOutsideTolerance": 0,
+        "maxRgbError": 0,
+        "alphaMismatches": 0
+    },
+    "originalRestored": {
+        "differingPixels": 0,
+        "pixelsOutsideTolerance": 0,
+        "maxRgbError": 0,
+        "alphaMismatches": 0
+    },
+    "asymmetricChangedPixels": 17496,
+    "simulationChangedPixels": 34992,
+    "redInputLinearProbe": [
+        0.5775805115699768,
+        0.07227186113595963,
+        0.07227186113595963
+    ],
+    "redInputLinearProbeMaxError": 7.11403261854926e-8,
+    "linearProbeFormat": "Linear ARGBFloat target, RGBAFloat readback through identity material at simulation injection point",
+    "samples": [
+        {
+            "name": "patch 0",
+            "original": "C84C4CFF",
+            "expected": "DB334DFF",
+            "observed": "DB334DFF",
+            "unclippedLinear": [
+                0.7067009337506072,
+                0.032650098851639348,
+                0.07466347623759159
+            ],
+            "requiresClipping": false
+        },
+        {
+            "name": "patch 1",
+            "original": "4CC84CFF",
+            "expected": "33C3AEFF",
+            "observed": "33C3AEFF",
+            "unclippedLinear": [
+                0.03348992172779941,
+                0.5426176337964429,
+                0.42162553445016195
+            ],
+            "requiresClipping": false
+        },
+        {
+            "name": "patch 2",
+            "original": "4C4CC8FF",
+            "expected": "006B83FF",
+            "observed": "006B83FF",
+            "unclippedLinear": [
+                -0.018066713684120995,
+                0.14685640914620336,
+                0.22583513110653204
+            ],
+            "requiresClipping": true
+        },
+        {
+            "name": "neutral 0",
+            "original": "000000FF",
+            "expected": "000000FF",
+            "observed": "000000FF",
+            "unclippedLinear": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "requiresClipping": false
+        },
+        {
+            "name": "neutral 1",
+            "original": "808080FF",
+            "expected": "808080FF",
+            "observed": "808080FF",
+            "unclippedLinear": [
+                0.2158605001138993,
+                0.21586050011389927,
+                0.21586050011389924
+            ],
+            "requiresClipping": false
+        },
+        {
+            "name": "neutral 2",
+            "original": "FFFFFFFF",
+            "expected": "FFFFFFFF",
+            "observed": "FFFFFFFF",
+            "unclippedLinear": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "requiresClipping": false
+        },
+        {
+            "name": "gamut 0",
+            "original": "FF0000FF",
+            "expected": "FF000FFF",
+            "observed": "FF000FFF",
+            "unclippedLinear": [
+                1.255528,
+                -0.078411,
+                0.004733
+            ],
+            "requiresClipping": true
+        },
+        {
+            "name": "gamut 1",
+            "original": "00FF00FF",
+            "expected": "00F7D9FF",
+            "observed": "00F7D9FF",
+            "unclippedLinear": [
+                -0.076749,
+                0.930809,
+                0.691367
+            ],
+            "requiresClipping": true
+        },
+        {
+            "name": "gamut 2",
+            "original": "0000FFFF",
+            "expected": "006B96FF",
+            "observed": "006B96FF",
+            "unclippedLinear": [
+                -0.178779,
+                0.147602,
+                0.3039
+            ],
+            "requiresClipping": true
+        }
+    ]
+}

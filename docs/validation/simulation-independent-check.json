@@ -1,0 +1,92 @@
+{
+  "success": true,
+  "method": "Independent NumPy float64 full-frame calculation from published coefficients",
+  "width": 960,
+  "height": 540,
+  "comparisons": [
+    {
+      "simulation": "Protanopia",
+      "group": "scene",
+      "maxRgbError": 0,
+      "pixelsOutsideTolerance": 0,
+      "alphaMismatches": 0
+    },
+    {
+      "simulation": "Protanopia",
+      "group": "-neutral",
+      "maxRgbError": 0,
+      "pixelsOutsideTolerance": 0,
+      "alphaMismatches": 0
+    },
+    {
+      "simulation": "Protanopia",
+      "group": "-gamut",
+      "maxRgbError": 0,
+      "pixelsOutsideTolerance": 0,
+      "alphaMismatches": 0
+    },
+    {
+      "simulation": "Protanopia",
+      "group": "-asymmetric",
+      "maxRgbError": 0,
+      "pixelsOutsideTolerance": 0,
+      "alphaMismatches": 0
+    },
+    {
+      "simulation": "Deuteranopia",
+      "group": "scene",
+      "maxRgbError": 1,
+      "pixelsOutsideTolerance": 0,
+      "alphaMismatches": 0
+    },
+    {
+      "simulation": "Deuteranopia",
+      "group": "-neutral",
+      "maxRgbError": 0,
+      "pixelsOutsideTolerance": 0,
+      "alphaMismatches": 0
+    },
+    {
+      "simulation": "Deuteranopia",
+      "group": "-gamut",
+      "maxRgbError": 1,
+      "pixelsOutsideTolerance": 0,
+      "alphaMismatches": 0
+    },
+    {
+      "simulation": "Deuteranopia",
+      "group": "-asymmetric",
+      "maxRgbError": 1,
+      "pixelsOutsideTolerance": 0,
+      "alphaMismatches": 0
+    },
+    {
+      "simulation": "Tritanomaly",
+      "group": "scene",
+      "maxRgbError": 0,
+      "pixelsOutsideTolerance": 0,
+      "alphaMismatches": 0
+    },
+    {
+      "simulation": "Tritanomaly",
+      "group": "-neutral",
+      "maxRgbError": 0,
+      "pixelsOutsideTolerance": 0,
+      "alphaMismatches": 0
+    },
+    {
+      "simulation": "Tritanomaly",
+      "group": "-gamut",
+      "maxRgbError": 0,
+      "pixelsOutsideTolerance": 0,
+      "alphaMismatches": 0
+    },
+    {
+      "simulation": "Tritanomaly",
+      "group": "-asymmetric",
+      "maxRgbError": 0,
+      "pixelsOutsideTolerance": 0,
+      "alphaMismatches": 0
+    }
+  ]
+}

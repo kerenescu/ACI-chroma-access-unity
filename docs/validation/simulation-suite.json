@@ -1,0 +1,38 @@
+{
+    "success": true,
+    "message": "All three simulations, mode switches, palette isolation, and restoration passed.",
+    "timestampUtc": "2026-10-21T15:35:27.0170610Z",
+    "modeSwitchesPassed": true,
+    "allFourModesProduceDistinctImages": true,
+    "paletteRegressionPassed": true,
+    "paletteRegressionRestoredTritanomaly": true,
+    "originalStateRestored": true,
+    "sceneHadUnsavedChanges": false,
+    "sceneHasUnsavedChangesAfterValidation": false,
+    "isolationChecks": [
+        {
+            "validatedMode": "Deuteranopia",
+            "priorPreviewMode": "Protanopia",
+            "validationPassed": true,
+            "previewModeRestored": true,
+            "paletteRestored": true,
+            "differingPixelsAfterRestoration": 0
+        },
+        {
+            "validatedMode": "Protanopia",
+            "priorPreviewMode": "Tritanomaly",
+            "validationPassed": true,
+            "previewModeRestored": true,
+            "paletteRestored": true,
+            "differingPixelsAfterRestoration": 0
+        },
+        {
+            "validatedMode": "Tritanomaly",
+            "priorPreviewMode": "Deuteranopia",
+            "validationPassed": true,
+            "previewModeRestored": true,
+            "paletteRestored": true,
+            "differingPixelsAfterRestoration": 0
+        }
+    ]
+}

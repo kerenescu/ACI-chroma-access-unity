@@ -1,0 +1,40 @@
+{
+    "success": true,
+    "message": "Identity matched baseline at every RGBA8 pixel, including the asymmetric probe; execution control passed.",
+    "timestampUtc": "2026-10-21T15:35:31.4020425Z",
+    "unityVersion": "6000.3.11f1",
+    "urpVersion": "17.3.0",
+    "graphicsApi": "Direct3D12",
+    "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+    "colorSpace": "Linear",
+    "pipelineAsset": "Assets/Settings/PC_RPAsset.asset",
+    "qualityLevel": "PC",
+    "scenePath": "Assets/Scenes/ControlledColors.unity",
+    "sceneHadUnsavedChanges": false,
+    "sceneHasUnsavedChangesAfterValidation": false,
+    "width": 960,
+    "height": 540,
+    "captureFormat": "sRGB ARGB32, 24-bit depth, single-sample target",
+    "featureInjectionPoint": "AfterRenderingPostProcessing",
+    "fetchColorBuffer": true,
+    "requirements": "None",
+    "baselineRepeat": {
+        "differingPixels": 0,
+        "maxChannelDifference": 0
+    },
+    "identity": {
+        "differingPixels": 0,
+        "maxChannelDifference": 0
+    },
+    "asymmetricIdentity": {
+        "differingPixels": 0,
+        "maxChannelDifference": 0
+    },
+    "positiveControlChangedPixels": 518400,
+    "positiveControlMagentaPixels": 518400,
+    "asymmetricProbeChangedPixels": 17496,
+    "redPixel": "C84C4CFF",
+    "greenPixel": "4CC84CFF",
+    "bluePixel": "4C4CC8FF",
+    "backgroundPixel": "303030FF"
+}

@@ -1,0 +1,555 @@
+{
+  "preparedDate": "2026-10-21",
+  "views": [
+    "None",
+    "Deuteranopia",
+    "Protanopia",
+    "Tritanomaly"
+  ],
+  "palettes": [
+    {
+      "id": "baseline",
+      "name": "Original debugging palette",
+      "colors": [
+        "#C84C4C",
+        "#4CC84C",
+        "#4C4CC8"
+      ],
+      "explanation": "Existing scene colors, without a perceptual confusion-pair claim.",
+      "search": null,
+      "continuousCpu": {
+        "pairDistances": {
+          "None": [
+            0.34547152783552293,
+            0.29223847589828156,
+            0.4308980815201698
+          ],
+          "Deuteranopia": [
+            0.14890508126635066,
+            0.2814175561686985,
+            0.3868475891818098
+          ],
+          "Protanopia": [
+            0.2861009299157515,
+            0.22004847639087224,
+            0.40844327845963
+          ],
+          "Tritanomaly": [
+            0.35300737818026684,
+            0.3040240921111477,
+            0.2606552238728842
+          ]
+        },
+        "minimumDistances": {
+          "None": 0.29223847589828156,
+          "Deuteranopia": 0.14890508126635066,
+          "Protanopia": 0.22004847639087224,
+          "Tritanomaly": 0.2606552238728842
+        },
+        "sourceOklabDrift": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "sourceRelativeY": [
+          0.1797004568626005,
+          0.43366855406961013,
+          0.10875513086207493
+        ]
+      }
+    },
+    {
+      "id": "matched-y",
+      "name": "Matched-Y challenge",
+      "colors": [
+        "#C84C4C",
+        "#4C824C",
+        "#4C4CC8"
+      ],
+      "explanation": "First two colors have nearly equal standard relative Y. This is a constructed numerical challenge, not an observer-matched pair.",
+      "search": null,
+      "continuousCpu": {
+        "pairDistances": {
+          "None": [
+            0.22853582628065333,
+            0.29223847589828156,
+            0.2731583492986953
+          ],
+          "Deuteranopia": [
+            0.04512903668354229,
+            0.2814175561686985,
+            0.24806345012059008
+          ],
+          "Protanopia": [
+            0.07447473160962371,
+            0.22004847639087224,
+            0.2551053143646472
+          ],
+          "Tritanomaly": [
+            0.26571211879862977,
+            0.3040240921111477,
+            0.08737718073570182
+          ]
+        },
+        "minimumDistances": {
+          "None": 0.22853582628065333,
+          "Deuteranopia": 0.04512903668354229,
+          "Protanopia": 0.07447473160962371,
+          "Tritanomaly": 0.08737718073570182
+        },
+        "sourceOklabDrift": [
+          0.0,
+          0.2074239340387883,
+          0.0
+        ],
+        "sourceRelativeY": [
+          0.1797004568626005,
+          0.18023565814730547,
+          0.10875513086207493
+        ]
+      }
+    },
+    {
+      "id": "okabe-ito",
+      "name": "Okabe-Ito subset",
+      "colors": [
+        "#E69F00",
+        "#CC79A7",
+        "#0072B2"
+      ],
+      "explanation": "Orange, reddish purple, and blue from Okabe and Ito. The selected subset and role assignment still need context-specific testing.",
+      "search": null,
+      "continuousCpu": {
+        "pairDistances": {
+          "None": [
+            0.21059938478805607,
+            0.36219092414774057,
+            0.24379307553586743
+          ],
+          "Deuteranopia": [
+            0.19343560998511913,
+            0.37260841945929946,
+            0.19670611048665437
+          ],
+          "Protanopia": [
+            0.20724271925364138,
+            0.2920010527431136,
+            0.09554096488496704
+          ],
+          "Tritanomaly": [
+            0.08541871104226921,
+            0.3094977302497591,
+            0.24773407402549674
+          ]
+        },
+        "minimumDistances": {
+          "None": 0.21059938478805607,
+          "Deuteranopia": 0.19343560998511913,
+          "Protanopia": 0.09554096488496704,
+          "Tritanomaly": 0.08541871104226921
+        },
+        "sourceOklabDrift": [
+          0.22103339175342573,
+          0.3150288806817697,
+          0.11245531934995769
+        ],
+        "sourceRelativeY": [
+          0.4161926832198343,
+          0.29302134085628373,
+          0.15248980125973846
+        ]
+      }
+    },
+    {
+      "id": "lightness",
+      "name": "Lightness-separated custom",
+      "colors": [
+        "#284B63",
+        "#F4D35E",
+        "#B83B5E"
+      ],
+      "explanation": "Manually chosen differences in source lightness. Standard Y does not guarantee perceived-brightness differences for every observer.",
+      "search": null,
+      "continuousCpu": {
+        "pairDistances": {
+          "None": [
+            0.512161986611103,
+            0.248168224558553,
+            0.39038163436521245
+          ],
+          "Deuteranopia": [
+            0.5264691290970108,
+            0.18231718044453063,
+            0.34677994994920935
+          ],
+          "Protanopia": [
+            0.47812235808872994,
+            0.06233758412862663,
+            0.4174331563338642
+          ],
+          "Tritanomaly": [
+            0.4948258977100849,
+            0.30280917822596587,
+            0.3488204615103408
+          ]
+        },
+        "minimumDistances": {
+          "None": 0.248168224558553,
+          "Deuteranopia": 0.18231718044453063,
+          "Protanopia": 0.06233758412862663,
+          "Tritanomaly": 0.30280917822596587
+        },
+        "sourceOklabDrift": [
+          0.2786426409872194,
+          0.20314246177915113,
+          0.2535521623831959
+        ],
+        "sourceRelativeY": [
+          0.06384122727604434,
+          0.6662977988480412,
+          0.1412642851416478
+        ]
+      }
+    },
+    {
+      "id": "deutan-search",
+      "name": "Deutan search",
+      "colors": [
+        "#BB5500",
+        "#EE88FF",
+        "#4C4CC8"
+      ],
+      "explanation": "Finite-grid maximum of the minimum Oklab pair distance over the selected views. Preserves source relative Y within 0.01 and keeps object C fixed. Numerical proxy only.",
+      "search": {
+        "targetViews": [
+          "Deuteranopia"
+        ],
+        "candidateCounts": [
+          172,
+          82
+        ],
+        "evaluatedPalettes": 14104,
+        "scoreContinuousCpu": 0.2976821086324362,
+        "maxSourceDriftConstraint": null,
+        "sourceYAbsoluteTolerance": 0.01,
+        "thirdObjectFixed": true,
+        "gridChannelStep": 17
+      },
+      "continuousCpu": {
+        "pairDistances": {
+          "None": [
+            0.31845737852665307,
+            0.3200840248552019,
+            0.3200929418424162
+          ],
+          "Deuteranopia": [
+            0.297927332910427,
+            0.3172435362701301,
+            0.2976821086324362
+          ],
+          "Protanopia": [
+            0.33211007339518606,
+            0.281258452821945,
+            0.22467771759782784
+          ],
+          "Tritanomaly": [
+            0.22130170390800277,
+            0.28087385840785345,
+            0.34464341832677853
+          ]
+        },
+        "minimumDistances": {
+          "None": 0.31845737852665307,
+          "Deuteranopia": 0.2976821086324362,
+          "Protanopia": 0.22467771759782784,
+          "Tritanomaly": 0.22130170390800277
+        },
+        "sourceOklabDrift": [
+          0.0712010342155658,
+          0.3923199643618456,
+          0.0
+        ],
+        "sourceRelativeY": [
+          0.17061794658831422,
+          0.430054617348656,
+          0.10875513086207493
+        ]
+      }
+    },
+    {
+      "id": "protan-search",
+      "name": "Protan search",
+      "colors": [
+        "#887711",
+        "#55BBEE",
+        "#4C4CC8"
+      ],
+      "explanation": "Finite-grid maximum of the minimum Oklab pair distance over the selected views. Preserves source relative Y within 0.01 and keeps object C fixed. Numerical proxy only.",
+      "search": {
+        "targetViews": [
+          "Protanopia"
+        ],
+        "candidateCounts": [
+          172,
+          82
+        ],
+        "evaluatedPalettes": 14104,
+        "scoreContinuousCpu": 0.2930789414829951,
+        "maxSourceDriftConstraint": null,
+        "sourceYAbsoluteTolerance": 0.01,
+        "thirdObjectFixed": true,
+        "gridChannelStep": 17
+      },
+      "continuousCpu": {
+        "pairDistances": {
+          "None": [
+            0.2823318503462737,
+            0.3096179720423907,
+            0.29075036846176133
+          ],
+          "Deuteranopia": [
+            0.2699257882470656,
+            0.30557686073498597,
+            0.2696445659482972
+          ],
+          "Protanopia": [
+            0.3050970901375006,
+            0.29481111180599534,
+            0.293078941482995
+          ],
+          "Tritanomaly": [
+            0.25738145922866384,
+            0.16259374866890738,
+            0.27520017994069707
+          ]
+        },
+        "minimumDistances": {
+          "None": 0.2823318503462737,
+          "Deuteranopia": 0.2696445659482972,
+          "Protanopia": 0.293078941482995,
+          "Tritanomaly": 0.16259374866890738
+        },
+        "sourceOklabDrift": [
+          0.17036706941907903,
+          0.23160744541333056,
+          0.0
+        ],
+        "sourceRelativeY": [
+          0.18468362740006863,
+          0.43644989217169666,
+          0.10875513086207493
+        ]
+      }
+    },
+    {
+      "id": "tritan-search",
+      "name": "Tritanomaly search",
+      "colors": [
+        "#C84C4C",
+        "#00BBFF",
+        "#4C4CC8"
+      ],
+      "explanation": "Finite-grid maximum of the minimum Oklab pair distance over the selected views. Preserves source relative Y within 0.01 and keeps object C fixed. Numerical proxy only.",
+      "search": {
+        "targetViews": [
+          "Tritanomaly"
+        ],
+        "candidateCounts": [
+          172,
+          82
+        ],
+        "evaluatedPalettes": 14104,
+        "scoreContinuousCpu": 0.2878214281247637,
+        "maxSourceDriftConstraint": null,
+        "sourceYAbsoluteTolerance": 0.01,
+        "thirdObjectFixed": true,
+        "gridChannelStep": 17
+      },
+      "continuousCpu": {
+        "pairDistances": {
+          "None": [
+            0.3442933868754483,
+            0.29223847589828156,
+            0.2848662030821659
+          ],
+          "Deuteranopia": [
+            0.25074541248536664,
+            0.2814175561686985,
+            0.25148394649060235
+          ],
+          "Protanopia": [
+            0.3192513151236873,
+            0.22004847639087224,
+            0.28770461521803764
+          ],
+          "Tritanomaly": [
+            0.37935259741487737,
+            0.3040240921111477,
+            0.2878214281247636
+          ]
+        },
+        "minimumDistances": {
+          "None": 0.2848662030821659,
+          "Deuteranopia": 0.25074541248536664,
+          "Protanopia": 0.22004847639087224,
+          "Tritanomaly": 0.2878214281247636
+        },
+        "sourceOklabDrift": [
+          0.0,
+          0.2530738732809313,
+          0.0
+        ],
+        "sourceRelativeY": [
+          0.1797004568626005,
+          0.4276064780675345,
+          0.10875513086207493
+        ]
+      }
+    },
+    {
+      "id": "balanced",
+      "name": "Balanced search",
+      "colors": [
+        "#CC4411",
+        "#55BBEE",
+        "#4C4CC8"
+      ],
+      "explanation": "Finite-grid maximum of the minimum Oklab pair distance over the selected views. Preserves source relative Y within 0.01 and keeps object C fixed. Numerical proxy only.",
+      "search": {
+        "targetViews": [
+          "None",
+          "Deuteranopia",
+          "Protanopia",
+          "Tritanomaly"
+        ],
+        "candidateCounts": [
+          172,
+          82
+        ],
+        "evaluatedPalettes": 14104,
+        "scoreContinuousCpu": 0.2696445659482972,
+        "maxSourceDriftConstraint": null,
+        "sourceYAbsoluteTolerance": 0.01,
+        "thirdObjectFixed": true,
+        "gridChannelStep": 17
+      },
+      "continuousCpu": {
+        "pairDistances": {
+          "None": [
+            0.3469017710038218,
+            0.3303262803174365,
+            0.29075036846176133
+          ],
+          "Deuteranopia": [
+            0.2706032351652568,
+            0.3204299957934118,
+            0.2696445659482972
+          ],
+          "Protanopia": [
+            0.35432941017522374,
+            0.2778847859536313,
+            0.293078941482995
+          ],
+          "Tritanomaly": [
+            0.3959849067855014,
+            0.32455495490869113,
+            0.27520017994069707
+          ]
+        },
+        "minimumDistances": {
+          "None": 0.29075036846176133,
+          "Deuteranopia": 0.2696445659482972,
+          "Protanopia": 0.2778847859536313,
+          "Tritanomaly": 0.27520017994069707
+        },
+        "sourceOklabDrift": [
+          0.048624860630580476,
+          0.23160744541333056,
+          0.0
+        ],
+        "sourceRelativeY": [
+          0.17012084518856352,
+          0.43644989217169666,
+          0.10875513086207493
+        ]
+      }
+    },
+    {
+      "id": "bounded",
+      "name": "Balanced with limited drift",
+      "colors": [
+        "#BB5500",
+        "#88BBAA",
+        "#4C4CC8"
+      ],
+      "explanation": "Finite-grid maximum of the minimum Oklab pair distance over the selected views. Preserves source relative Y within 0.01 and keeps object C fixed. Numerical proxy only.",
+      "search": {
+        "targetViews": [
+          "None",
+          "Deuteranopia",
+          "Protanopia",
+          "Tritanomaly"
+        ],
+        "candidateCounts": [
+          62,
+          40
+        ],
+        "evaluatedPalettes": 2480,
+        "scoreContinuousCpu": 0.20503914924023667,
+        "maxSourceDriftConstraint": 0.15,
+        "sourceYAbsoluteTolerance": 0.01,
+        "thirdObjectFixed": true,
+        "gridChannelStep": 17
+      },
+      "continuousCpu": {
+        "pairDistances": {
+          "None": [
+            0.26403611022707496,
+            0.3200840248552019,
+            0.33364973922476365
+          ],
+          "Deuteranopia": [
+            0.20503914924023667,
+            0.3172435362701301,
+            0.32569975947756236
+          ],
+          "Protanopia": [
+            0.28206482563236324,
+            0.281258452821945,
+            0.3242323405634158
+          ],
+          "Tritanomaly": [
+            0.30301122570605593,
+            0.28087385840785345,
+            0.2660107392954644
+          ]
+        },
+        "minimumDistances": {
+          "None": 0.26403611022707496,
+          "Deuteranopia": 0.20503914924023667,
+          "Protanopia": 0.281258452821945,
+          "Tritanomaly": 0.2660107392954644
+        },
+        "sourceOklabDrift": [
+          0.0712010342155658,
+          0.14944753706387195,
+          0.0
+        ],
+        "sourceRelativeY": [
+          0.17061794658831422,
+          0.4367716758295049,
+          0.10875513086207493
+        ]
+      }
+    }
+  ],
+  "sources": {
+    "simulation": "https://www.inf.ufrgs.br/~oliveira/pubs_files/CVD_Simulation/CVD_Simulation.html#Tutorial",
+    "okabeIto": "https://jfly.uni-koeln.de/color/",
+    "okabeItoFigure": "https://jfly.uni-koeln.de/color/image/pallete.jpg",
+    "oklab": "https://bottosson.github.io/posts/oklab/",
+    "distance": "https://www.w3.org/TR/css-color-4/#color-difference-OK",
+    "luminance": "https://www.w3.org/TR/WCAG22/#dfn-relative-luminance"
+  },
+  "limitations": "Fixed scene, finite grid, source-Y constraint, third object fixed in searched cases. Simulated Oklab is not a calibrated discrimination threshold. No participant benefit or universal palette is established."
+}

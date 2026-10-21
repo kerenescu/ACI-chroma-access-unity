@@ -1,0 +1,100 @@
+{
+  "kind": "Finite-grid exploratory palette selection; no observer validation",
+  "selection": "Maximize minimum pairwise Oklab distance after Machado deuteranopia simulation and SDR clipping; tie-break by minimum total original-color Oklab drift",
+  "gridChannelStepRgb8": 17,
+  "candidateCounts": [
+    172,
+    82
+  ],
+  "evaluatedPalettes": 14104,
+  "blueHeldFixed": true,
+  "relativeLuminanceTolerance": 0.01,
+  "relativeLuminanceWeights": [
+    0.2126,
+    0.7152,
+    0.0722
+  ],
+  "pairOrder": [
+    "0-1",
+    "0-2",
+    "1-2"
+  ],
+  "originalHex": [
+    "#C84C4C",
+    "#4CC84C",
+    "#4C4CC8"
+  ],
+  "paletteHex": [
+    "#BB5500",
+    "#EE88FF",
+    "#4C4CC8"
+  ],
+  "originalRgb8": [
+    [
+      200,
+      76,
+      76
+    ],
+    [
+      76,
+      200,
+      76
+    ],
+    [
+      76,
+      76,
+      200
+    ]
+  ],
+  "paletteRgb8": [
+    [
+      187,
+      85,
+      0
+    ],
+    [
+      238,
+      136,
+      255
+    ],
+    [
+      76,
+      76,
+      200
+    ]
+  ],
+  "originalRelativeLuminance": [
+    0.1797004568626005,
+    0.43366855406961013,
+    0.10875513086207492
+  ],
+  "paletteRelativeLuminance": [
+    0.17061794658831422,
+    0.430054617348656,
+    0.10875513086207492
+  ],
+  "originalSimulatedPairDistancesOklab": [
+    0.14890508126635066,
+    0.2814175561686985,
+    0.3868475891818097
+  ],
+  "paletteSimulatedPairDistancesOklab": [
+    0.29792733291042706,
+    0.3172435362701301,
+    0.2976821086324362
+  ],
+  "originalMinimumSimulatedDistanceOklab": 0.14890508126635066,
+  "paletteMinimumSimulatedDistanceOklab": 0.2976821086324362,
+  "originalColorDriftOklab": [
+    0.07120103421556577,
+    0.3923199643618461,
+    0.0
+  ],
+  "sources": {
+    "simulation": "https://www.inf.ufrgs.br/~oliveira/pubs_files/CVD_Simulation/CVD_Simulation.html#Tutorial",
+    "oklab": "https://bottosson.github.io/posts/oklab/",
+    "distance": "https://www.w3.org/TR/css-color-4/#color-difference-OK",
+    "luminance": "https://www.w3.org/TR/WCAG22/#dfn-relative-luminance"
+  },
+  "limitations": "Optimum only for this finite candidate set and constraints; Oklab distance of simulated colors is an exploratory proxy, not a calibrated deuteranope discrimination metric; pairwise scores can trade off; no semantic hue preservation or gameplay benefit is established."
+}

@@ -1,0 +1,23 @@
+{
+  "purpose": "Historical identical capture filenames consolidated during INT-013. Image bytes and numerical evidence are unchanged.",
+  "aliases": {
+    "docs/images/controlled-colors-three.png": "docs/images/deuteranopia-original.png",
+    "docs/images/identity-after.png": "docs/images/deuteranopia-original.png",
+    "docs/images/identity-before.png": "docs/images/deuteranopia-original.png",
+    "docs/images/palette-original.png": "docs/images/deuteranopia-original.png",
+    "docs/images/protanopia-original.png": "docs/images/deuteranopia-original.png",
+    "docs/images/tritanomaly-original.png": "docs/images/deuteranopia-original.png",
+    "docs/images/identity-asymmetric-after.png": "docs/images/deuteranopia-asymmetric-original.png",
+    "docs/images/identity-asymmetric-before.png": "docs/images/deuteranopia-asymmetric-original.png",
+    "docs/images/protanopia-asymmetric-original.png": "docs/images/deuteranopia-asymmetric-original.png",
+    "docs/images/tritanomaly-asymmetric-original.png": "docs/images/deuteranopia-asymmetric-original.png",
+    "docs/images/protanopia-gamut-original.png": "docs/images/deuteranopia-gamut-original.png",
+    "docs/images/tritanomaly-gamut-original.png": "docs/images/deuteranopia-gamut-original.png",
+    "docs/images/deuteranopia-neutral-simulated.png": "docs/images/deuteranopia-neutral-original.png",
+    "docs/images/protanopia-neutral-original.png": "docs/images/deuteranopia-neutral-original.png",
+    "docs/images/protanopia-neutral-simulated.png": "docs/images/deuteranopia-neutral-original.png",
+    "docs/images/tritanomaly-neutral-original.png": "docs/images/deuteranopia-neutral-original.png",
+    "docs/images/tritanomaly-neutral-simulated.png": "docs/images/deuteranopia-neutral-original.png",
+    "docs/images/palette-original-simulated.png": "docs/images/deuteranopia-simulated.png"
+  }
+}

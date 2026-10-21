@@ -1,0 +1,546 @@
+{
+    "success": true,
+    "message": "Captured nine palettes in four modes, plus three shape-cue variants in four modes.",
+    "timestampUtc": "2026-10-21T15:53:57.0393400Z",
+    "unityVersion": "6000.3.11f1",
+    "graphicsApi": "Direct3D12",
+    "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+    "colorSpace": "Linear",
+    "width": 1440,
+    "height": 540,
+    "cameraOrthographicSize": 2.0,
+    "isolatedPreviewScene": true,
+    "originalStateRestored": true,
+    "sourceSceneDirtyBefore": false,
+    "sourceSceneDirtyAfter": false,
+    "frames": [
+        {
+            "paletteId": "baseline",
+            "mode": "None",
+            "cues": false,
+            "path": "docs/images/palette-lab-20261021/baseline-none.png",
+            "sampledRgb": [
+                "C84C4CFF",
+                "4CC84CFF",
+                "4C4CC8FF"
+            ]
+        },
+        {
+            "paletteId": "baseline",
+            "mode": "Deuteranopia",
+            "cues": false,
+            "path": "docs/images/palette-lab-20261021/baseline-deuteranopia.png",
+            "sampledRgb": [
+                "8B8049FF",
+                "BDAC56FF",
+                "0057C6FF"
+            ]
+        },
+        {
+            "paletteId": "baseline",
+            "mode": "Protanopia",
+            "cues": false,
+            "path": "docs/images/palette-lab-20261021/baseline-protanopia.png",
+            "sampledRgb": [
+                "6C654BFF",
+                "CCB63EFF",
+                "0062CCFF"
+            ]
+        },
+        {
+            "paletteId": "baseline",
+            "mode": "Tritanomaly",
+            "cues": false,
+            "path": "docs/images/palette-lab-20261021/baseline-tritanomaly.png",
+            "sampledRgb": [
+                "DB334DFF",
+                "33C3AEFF",
+                "006B83FF"
+            ]
+        },
+        {
+            "paletteId": "baseline",
+            "mode": "None",
+            "cues": true,
+            "path": "docs/images/palette-lab-20261021/baseline-cues-none.png",
+            "sampledRgb": [
+                "C84C4CFF",
+                "4CC84CFF",
+                "4C4CC8FF"
+            ]
+        },
+        {
+            "paletteId": "baseline",
+            "mode": "Deuteranopia",
+            "cues": true,
+            "path": "docs/images/palette-lab-20261021/baseline-cues-deuteranopia.png",
+            "sampledRgb": [
+                "8B8049FF",
+                "BDAC56FF",
+                "0057C6FF"
+            ]
+        },
+        {
+            "paletteId": "baseline",
+            "mode": "Protanopia",
+            "cues": true,
+            "path": "docs/images/palette-lab-20261021/baseline-cues-protanopia.png",
+            "sampledRgb": [
+                "6C654BFF",
+                "CCB63EFF",
+                "0062CCFF"
+            ]
+        },
+        {
+            "paletteId": "baseline",
+            "mode": "Tritanomaly",
+            "cues": true,
+            "path": "docs/images/palette-lab-20261021/baseline-cues-tritanomaly.png",
+            "sampledRgb": [
+                "DB334DFF",
+                "33C3AEFF",
+                "006B83FF"
+            ]
+        },
+        {
+            "paletteId": "matched-y",
+            "mode": "None",
+            "cues": false,
+            "path": "docs/images/palette-lab-20261021/matched-y-none.png",
+            "sampledRgb": [
+                "C84C4CFF",
+                "4C824CFF",
+                "4C4CC8FF"
+            ]
+        },
+        {
+            "paletteId": "matched-y",
+            "mode": "Deuteranopia",
+            "cues": false,
+            "path": "docs/images/palette-lab-20261021/matched-y-deuteranopia.png",
+            "sampledRgb": [
+                "8B8049FF",
+                "7C744FFF",
+                "0057C6FF"
+            ]
+        },
+        {
+            "paletteId": "matched-y",
+            "mode": "Protanopia",
+            "cues": false,
+            "path": "docs/images/palette-lab-20261021/matched-y-protanopia.png",
+            "sampledRgb": [
+                "6C654BFF",
+                "847948FF",
+                "0062CCFF"
+            ]
+        },
+        {
+            "paletteId": "matched-y",
+            "mode": "Tritanomaly",
+            "cues": false,
+            "path": "docs/images/palette-lab-20261021/matched-y-tritanomaly.png",
+            "sampledRgb": [
+                "DB334DFF",
+                "467F75FF",
+                "006B83FF"
+            ]
+        },
+        {
+            "paletteId": "matched-y",
+            "mode": "None",
+            "cues": true,
+            "path": "docs/images/palette-lab-20261021/matched-y-cues-none.png",
+            "sampledRgb": [
+                "C84C4CFF",
+                "4C824CFF",
+                "4C4CC8FF"
+            ]
+        },
+        {
+            "paletteId": "matched-y",
+            "mode": "Deuteranopia",
+            "cues": true,
+            "path": "docs/images/palette-lab-20261021/matched-y-cues-deuteranopia.png",
+            "sampledRgb": [
+                "8B8049FF",
+                "7C744FFF",
+                "0057C6FF"
+            ]
+        },
+        {
+            "paletteId": "matched-y",
+            "mode": "Protanopia",
+            "cues": true,
+            "path": "docs/images/palette-lab-20261021/matched-y-cues-protanopia.png",
+            "sampledRgb": [
+                "6C654BFF",
+                "847948FF",
+                "0062CCFF"
+            ]
+        },
+        {
+            "paletteId": "matched-y",
+            "mode": "Tritanomaly",
+            "cues": true,
+            "path": "docs/images/palette-lab-20261021/matched-y-cues-tritanomaly.png",
+            "sampledRgb": [
+                "DB334DFF",
+                "467F75FF",
+                "006B83FF"
+            ]
+        },
+        {
+            "paletteId": "okabe-ito",
+            "mode": "None",
+            "cues": false,
+            "path": "docs/images/palette-lab-20261021/okabe-ito-none.png",
+            "sampledRgb": [
+                "E69F00FF",
+                "CC79A7FF",
+                "0072B2FF"
+            ]
+        },
+        {
+            "paletteId": "okabe-ito",
+            "mode": "Deuteranopia",
+            "cues": false,
+            "path": "docs/images/palette-lab-20261021/okabe-ito-deuteranopia.png",
+            "sampledRgb": [
+                "CAB411FF",
+                "9599A5FF",
+                "3B66B1FF"
+            ]
+        },
+        {
+            "paletteId": "okabe-ito",
+            "mode": "Protanopia",
+            "cues": false,
+            "path": "docs/images/palette-lab-20261021/okabe-ito-protanopia.png",
+            "sampledRgb": [
+                "B9A300FF",
+                "808BA9FF",
+                "5374B5FF"
+            ]
+        },
+        {
+            "paletteId": "okabe-ito",
+            "mode": "Tritanomaly",
+            "cues": false,
+            "path": "docs/images/palette-lab-20261021/okabe-ito-tritanomaly.png",
+            "sampledRgb": [
+                "FC8C87FF",
+                "D7788AFF",
+                "008289FF"
+            ]
+        },
+        {
+            "paletteId": "lightness",
+            "mode": "None",
+            "cues": false,
+            "path": "docs/images/palette-lab-20261021/lightness-none.png",
+            "sampledRgb": [
+                "284B63FF",
+                "F4D35EFF",
+                "B83B5EFF"
+            ]
+        },
+        {
+            "paletteId": "lightness",
+            "mode": "Deuteranopia",
+            "cues": false,
+            "path": "docs/images/palette-lab-20261021/lightness-deuteranopia.png",
+            "sampledRgb": [
+                "384563FF",
+                "F0DA63FF",
+                "78725BFF"
+            ]
+        },
+        {
+            "paletteId": "lightness",
+            "mode": "Protanopia",
+            "cues": false,
+            "path": "docs/images/palette-lab-20261021/lightness-protanopia.png",
+            "sampledRgb": [
+                "404B64FF",
+                "E7D051FF",
+                "57595FFF"
+            ]
+        },
+        {
+            "paletteId": "lightness",
+            "mode": "Tritanomaly",
+            "cues": false,
+            "path": "docs/images/palette-lab-20261021/lightness-tritanomaly.png",
+            "sampledRgb": [
+                "005153FF",
+                "FFC4BAFF",
+                "C82649FF"
+            ]
+        },
+        {
+            "paletteId": "deutan-search",
+            "mode": "None",
+            "cues": false,
+            "path": "docs/images/palette-lab-20261021/deutan-search-none.png",
+            "sampledRgb": [
+                "BB5500FF",
+                "EE88FFFF",
+                "4C4CC8FF"
+            ]
+        },
+        {
+            "paletteId": "deutan-search",
+            "mode": "Deuteranopia",
+            "cues": false,
+            "path": "docs/images/palette-lab-20261021/deutan-search-deuteranopia.png",
+            "sampledRgb": [
+                "8C7C00FF",
+                "94B3FCFF",
+                "0057C6FF"
+            ]
+        },
+        {
+            "paletteId": "deutan-search",
+            "mode": "Protanopia",
+            "cues": false,
+            "path": "docs/images/palette-lab-20261021/deutan-search-protanopia.png",
+            "sampledRgb": [
+                "736400FF",
+                "77A8FFFF",
+                "0062CCFF"
+            ]
+        },
+        {
+            "paletteId": "deutan-search",
+            "mode": "Tritanomaly",
+            "cues": false,
+            "path": "docs/images/palette-lab-20261021/deutan-search-tritanomaly.png",
+            "sampledRgb": [
+                "CE3C48FF",
+                "F197B8FF",
+                "006B83FF"
+            ]
+        },
+        {
+            "paletteId": "protan-search",
+            "mode": "None",
+            "cues": false,
+            "path": "docs/images/palette-lab-20261021/protan-search-none.png",
+            "sampledRgb": [
+                "887711FF",
+                "55BBEEFF",
+                "4C4CC8FF"
+            ]
+        },
+        {
+            "paletteId": "protan-search",
+            "mode": "Deuteranopia",
+            "cues": false,
+            "path": "docs/images/palette-lab-20261021/protan-search-deuteranopia.png",
+            "sampledRgb": [
+                "887A1AFF",
+                "8DAAEDFF",
+                "0057C6FF"
+            ]
+        },
+        {
+            "paletteId": "protan-search",
+            "mode": "Protanopia",
+            "cues": false,
+            "path": "docs/images/palette-lab-20261021/protan-search-protanopia.png",
+            "sampledRgb": [
+                "847400FF",
+                "A2B9F1FF",
+                "0062CCFF"
+            ]
+        },
+        {
+            "paletteId": "protan-search",
+            "mode": "Tritanomaly",
+            "cues": false,
+            "path": "docs/images/palette-lab-20261021/protan-search-tritanomaly.png",
+            "sampledRgb": [
+                "936D65FF",
+                "00C9CCFF",
+                "006B83FF"
+            ]
+        },
+        {
+            "paletteId": "tritan-search",
+            "mode": "None",
+            "cues": false,
+            "path": "docs/images/palette-lab-20261021/tritan-search-none.png",
+            "sampledRgb": [
+                "C84C4CFF",
+                "00BBFFFF",
+                "4C4CC8FF"
+            ]
+        },
+        {
+            "paletteId": "tritan-search",
+            "mode": "Deuteranopia",
+            "cues": false,
+            "path": "docs/images/palette-lab-20261021/tritan-search-deuteranopia.png",
+            "sampledRgb": [
+                "8B8049FF",
+                "7BA6FEFF",
+                "0057C6FF"
+            ]
+        },
+        {
+            "paletteId": "tritan-search",
+            "mode": "Protanopia",
+            "cues": false,
+            "path": "docs/images/palette-lab-20261021/tritan-search-protanopia.png",
+            "sampledRgb": [
+                "6C654BFF",
+                "99BAFFFF",
+                "0062CCFF"
+            ]
+        },
+        {
+            "paletteId": "tritan-search",
+            "mode": "Tritanomaly",
+            "cues": false,
+            "path": "docs/images/palette-lab-20261021/tritan-search-tritanomaly.png",
+            "sampledRgb": [
+                "DB334DFF",
+                "00CDD2FF",
+                "006B83FF"
+            ]
+        },
+        {
+            "paletteId": "balanced",
+            "mode": "None",
+            "cues": false,
+            "path": "docs/images/palette-lab-20261021/balanced-none.png",
+            "sampledRgb": [
+                "CC4411FF",
+                "55BBEEFF",
+                "4C4CC8FF"
+            ]
+        },
+        {
+            "paletteId": "balanced",
+            "mode": "Deuteranopia",
+            "cues": false,
+            "path": "docs/images/palette-lab-20261021/balanced-deuteranopia.png",
+            "sampledRgb": [
+                "8E7E03FF",
+                "8DAAEDFF",
+                "0057C6FF"
+            ]
+        },
+        {
+            "paletteId": "balanced",
+            "mode": "Protanopia",
+            "cues": false,
+            "path": "docs/images/palette-lab-20261021/balanced-protanopia.png",
+            "sampledRgb": [
+                "6D5F03FF",
+                "A2B9F1FF",
+                "0062CCFF"
+            ]
+        },
+        {
+            "paletteId": "balanced",
+            "mode": "Tritanomaly",
+            "cues": false,
+            "path": "docs/images/palette-lab-20261021/balanced-tritanomaly.png",
+            "sampledRgb": [
+                "E1143BFF",
+                "00C9CCFF",
+                "006B83FF"
+            ]
+        },
+        {
+            "paletteId": "balanced",
+            "mode": "None",
+            "cues": true,
+            "path": "docs/images/palette-lab-20261021/balanced-cues-none.png",
+            "sampledRgb": [
+                "CC4411FF",
+                "55BBEEFF",
+                "4C4CC8FF"
+            ]
+        },
+        {
+            "paletteId": "balanced",
+            "mode": "Deuteranopia",
+            "cues": true,
+            "path": "docs/images/palette-lab-20261021/balanced-cues-deuteranopia.png",
+            "sampledRgb": [
+                "8E7E03FF",
+                "8DAAEDFF",
+                "0057C6FF"
+            ]
+        },
+        {
+            "paletteId": "balanced",
+            "mode": "Protanopia",
+            "cues": true,
+            "path": "docs/images/palette-lab-20261021/balanced-cues-protanopia.png",
+            "sampledRgb": [
+                "6D5F03FF",
+                "A2B9F1FF",
+                "0062CCFF"
+            ]
+        },
+        {
+            "paletteId": "balanced",
+            "mode": "Tritanomaly",
+            "cues": true,
+            "path": "docs/images/palette-lab-20261021/balanced-cues-tritanomaly.png",
+            "sampledRgb": [
+                "E1143BFF",
+                "00C9CCFF",
+                "006B83FF"
+            ]
+        },
+        {
+            "paletteId": "bounded",
+            "mode": "None",
+            "cues": false,
+            "path": "docs/images/palette-lab-20261021/bounded-none.png",
+            "sampledRgb": [
+                "BB5500FF",
+                "88BBAAFF",
+                "4C4CC8FF"
+            ]
+        },
+        {
+            "paletteId": "bounded",
+            "mode": "Deuteranopia",
+            "cues": false,
+            "path": "docs/images/palette-lab-20261021/bounded-deuteranopia.png",
+            "sampledRgb": [
+                "8C7C00FF",
+                "AEAEABFF",
+                "0057C6FF"
+            ]
+        },
+        {
+            "paletteId": "bounded",
+            "mode": "Protanopia",
+            "cues": false,
+            "path": "docs/images/palette-lab-20261021/bounded-protanopia.png",
+            "sampledRgb": [
+                "736400FF",
+                "B8B4A9FF",
+                "0062CCFF"
+            ]
+        },
+        {
+            "paletteId": "bounded",
+            "mode": "Tritanomaly",
+            "cues": false,
+            "path": "docs/images/palette-lab-20261021/bounded-tritanomaly.png",
+            "sampledRgb": [
+                "CE3C48FF",
+                "7BBCB6FF",
+                "006B83FF"
+            ]
+        }
+    ]
+}

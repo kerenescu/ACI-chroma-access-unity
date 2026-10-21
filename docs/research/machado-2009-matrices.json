@@ -1,0 +1,65 @@
+{
+  "model": "Machado, Oliveira, Fernandes (2009)",
+  "paperDoi": "https://doi.org/10.1109/TVCG.2009.113",
+  "sourceUrl": "https://www.inf.ufrgs.br/~oliveira/pubs_files/CVD_Simulation/CVD_Simulation.html#Tutorial",
+  "sourceHtmlSha256": "379c549025f91ac05a611631114ff8202fa2d802bc29e15f79479c7985373346",
+  "sourceRetrievedDate": "2026-10-19",
+  "coefficientReviewDate": "2026-10-21",
+  "location": "Tutorial Table 1, severity 1.0; Protanomaly, Deuteranomaly, Tritanomaly columns",
+  "severity": 1.0,
+  "workingSpace": "Linear RGB, sRGB primaries",
+  "tritanLimit": "Approximate tritanomaly only. The original paper explicitly excludes tritanopia (sections 4.2.1 and 4.3).",
+  "matrices": {
+    "Protanopia": [
+      [
+        0.152286,
+        1.052583,
+        -0.204868
+      ],
+      [
+        0.114503,
+        0.786281,
+        0.099216
+      ],
+      [
+        -0.003882,
+        -0.048116,
+        1.051998
+      ]
+    ],
+    "Deuteranopia": [
+      [
+        0.367322,
+        0.860646,
+        -0.227968
+      ],
+      [
+        0.280085,
+        0.672501,
+        0.047413
+      ],
+      [
+        -0.01182,
+        0.04294,
+        0.968881
+      ]
+    ],
+    "Tritanomaly": [
+      [
+        1.255528,
+        -0.076749,
+        -0.178779
+      ],
+      [
+        -0.078411,
+        0.930809,
+        0.147602
+      ],
+      [
+        0.004733,
+        0.691367,
+        0.3039
+      ]
+    ]
+  }
+}

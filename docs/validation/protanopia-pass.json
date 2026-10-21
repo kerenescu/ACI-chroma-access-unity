@@ -1,0 +1,196 @@
+{
+    "success": true,
+    "message": "Simulation matched the linear RGB CPU reference within 1/255, including neutral, gamut and asymmetric probes; identity and restoration passed.",
+    "timestampUtc": "2026-10-21T15:35:28.5528449Z",
+    "unityVersion": "6000.3.11f1",
+    "urpVersion": "17.3.0",
+    "graphicsApi": "Direct3D12",
+    "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+    "colorSpace": "Linear",
+    "pipelineAsset": "Assets/Settings/PC_RPAsset.asset",
+    "qualityLevel": "PC",
+    "scenePath": "Assets/Scenes/ControlledColors.unity",
+    "sceneHadUnsavedChanges": false,
+    "sceneHasUnsavedChangesAfterValidation": false,
+    "width": 960,
+    "height": 540,
+    "toleranceRgb8": 1,
+    "captureFormat": "sRGB ARGB32, 24-bit depth, single-sample",
+    "model": "Machado, Oliveira, Fernandes (2009), Protanopia, severity 1.0",
+    "simulationType": "Protanopia",
+    "severity": 1.0,
+    "matrixRowMajor": [
+        0.152286,
+        1.052583,
+        -0.204868,
+        0.114503,
+        0.786281,
+        0.099216,
+        -0.003882,
+        -0.048116,
+        1.051998
+    ],
+    "source": "https://www.inf.ufrgs.br/~oliveira/pubs_files/CVD_Simulation/CVD_Simulation.html#Tutorial",
+    "injectionPoint": "AfterRenderingPostProcessing",
+    "fetchColorBuffer": true,
+    "requirements": "None",
+    "identityRegressionPassed": true,
+    "previewModeSwitchPassed": true,
+    "effectStateRestored": true,
+    "temporarySceneStateRestored": true,
+    "baselineRepeat": {
+        "differingPixels": 0,
+        "pixelsOutsideTolerance": 0,
+        "maxRgbError": 0,
+        "alphaMismatches": 0
+    },
+    "simulation": {
+        "differingPixels": 0,
+        "pixelsOutsideTolerance": 0,
+        "maxRgbError": 0,
+        "alphaMismatches": 0
+    },
+    "neutralProbes": {
+        "differingPixels": 0,
+        "pixelsOutsideTolerance": 0,
+        "maxRgbError": 0,
+        "alphaMismatches": 0
+    },
+    "gamutProbes": {
+        "differingPixels": 0,
+        "pixelsOutsideTolerance": 0,
+        "maxRgbError": 0,
+        "alphaMismatches": 0
+    },
+    "asymmetricSimulation": {
+        "differingPixels": 0,
+        "pixelsOutsideTolerance": 0,
+        "maxRgbError": 0,
+        "alphaMismatches": 0
+    },
+    "originalRestored": {
+        "differingPixels": 0,
+        "pixelsOutsideTolerance": 0,
+        "maxRgbError": 0,
+        "alphaMismatches": 0
+    },
+    "asymmetricChangedPixels": 17496,
+    "simulationChangedPixels": 34992,
+    "redInputLinearProbe": [
+        0.5775805115699768,
+        0.07227186113595963,
+        0.07227186113595963
+    ],
+    "redInputLinearProbeMaxError": 7.11403261854926e-8,
+    "linearProbeFormat": "Linear ARGBFloat target, RGBAFloat readback through identity material at simulation injection point",
+    "samples": [
+        {
+            "name": "patch 0",
+            "original": "C84C4CFF",
+            "expected": "6C654BFF",
+            "observed": "6C654BFF",
+            "unclippedLinear": [
+                0.14922334685243056,
+                0.13013120013415636,
+                0.07031024273691834
+            ],
+            "requiresClipping": false
+        },
+        {
+            "name": "patch 1",
+            "original": "4CC84CFF",
+            "expected": "CCB63EFF",
+            "observed": "CCB63EFF",
+            "unclippedLinear": [
+                0.6041511542761854,
+                0.46958639393744036,
+                0.0479584225780348
+            ],
+            "requiresClipping": false
+        },
+        {
+            "name": "patch 2",
+            "original": "4C4CC8FF",
+            "expected": "0062CCFF",
+            "observed": "0062CCFF",
+            "unclippedLinear": [
+                -0.031249637210188476,
+                0.12240654772268889,
+                0.6038554764793325
+            ],
+            "requiresClipping": true
+        },
+        {
+            "name": "neutral 0",
+            "original": "000000FF",
+            "expected": "000000FF",
+            "observed": "000000FF",
+            "unclippedLinear": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "requiresClipping": false
+        },
+        {
+            "name": "neutral 1",
+            "original": "808080FF",
+            "expected": "808080FF",
+            "observed": "808080FF",
+            "unclippedLinear": [
+                0.21586071597439938,
+                0.21586050011389924,
+                0.21586050011389927
+            ],
+            "requiresClipping": false
+        },
+        {
+            "name": "neutral 2",
+            "original": "FFFFFFFF",
+            "expected": "FFFFFFFF",
+            "observed": "FFFFFFFF",
+            "unclippedLinear": [
+                1.000001,
+                1.0,
+                1.0
+            ],
+            "requiresClipping": true
+        },
+        {
+            "name": "gamut 0",
+            "original": "FF0000FF",
+            "expected": "6D5F00FF",
+            "observed": "6D5F00FF",
+            "unclippedLinear": [
+                0.152286,
+                0.114503,
+                -0.003882
+            ],
+            "requiresClipping": true
+        },
+        {
+            "name": "gamut 1",
+            "original": "00FF00FF",
+            "expected": "FFE500FF",
+            "observed": "FFE500FF",
+            "unclippedLinear": [
+                1.052583,
+                0.786281,
+                -0.048116
+            ],
+            "requiresClipping": true
+        },
+        {
+            "name": "gamut 2",
+            "original": "0000FFFF",
+            "expected": "0059FFFF",
+            "observed": "0059FFFF",
+            "unclippedLinear": [
+                -0.204868,
+                0.099216,
+                1.051998
+            ],
+            "requiresClipping": true
+        }
+    ]
+}

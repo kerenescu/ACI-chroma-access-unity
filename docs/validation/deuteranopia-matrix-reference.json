@@ -1,0 +1,134 @@
+{
+  "kind": "CPU numerical reference, not a Unity render or observer study",
+  "simulation": "Deuteranopia",
+  "severity": 1.0,
+  "sourceUrl": "https://www.inf.ufrgs.br/~oliveira/pubs_files/CVD_Simulation/CVD_Simulation.html#Tutorial",
+  "sourceHtmlSha256": "379c549025f91ac05a611631114ff8202fa2d802bc29e15f79479c7985373346",
+  "matrixRows": [
+    [
+      0.367322,
+      0.860646,
+      -0.227968
+    ],
+    [
+      0.280085,
+      0.672501,
+      0.047413
+    ],
+    [
+      -0.01182,
+      0.04294,
+      0.968881
+    ]
+  ],
+  "tritanLimit": "",
+  "sdrPolicy": "Decode sRGB, multiply column vector, clip linear RGB, encode sRGB, round half up",
+  "probeCases": [
+    {
+      "name": "patch 0",
+      "inputHex": "C84C4C",
+      "unclippedLinear": [
+        0.2578828124854874,
+        0.21380113476984858,
+        0.06629917542335469
+      ],
+      "requiresClipping": false,
+      "outputHex": "8B7F49"
+    },
+    {
+      "name": "patch 1",
+      "inputHex": "4CC84C",
+      "unclippedLinear": [
+        0.5071636672140007,
+        0.4120923103241381,
+        0.09396987379791864
+      ],
+      "requiresClipping": false,
+      "outputHex": "BDAC56"
+    },
+    {
+      "name": "patch 2",
+      "inputHex": "4C4CC8",
+      "unclippedLinear": [
+        -0.04292233790520256,
+        0.09622997457615709,
+        0.5618558146971541
+      ],
+      "requiresClipping": true,
+      "outputHex": "0057C6"
+    },
+    {
+      "name": "neutral 0",
+      "inputHex": "000000",
+      "unclippedLinear": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "requiresClipping": false,
+      "outputHex": "000000"
+    },
+    {
+      "name": "neutral 1",
+      "inputHex": "808080",
+      "unclippedLinear": [
+        0.21586050011389926,
+        0.21586028425339915,
+        0.21586071597439938
+      ],
+      "requiresClipping": false,
+      "outputHex": "808080"
+    },
+    {
+      "name": "neutral 2",
+      "inputHex": "FFFFFF",
+      "unclippedLinear": [
+        1.0,
+        0.999999,
+        1.000001
+      ],
+      "requiresClipping": true,
+      "outputHex": "FFFFFF"
+    },
+    {
+      "name": "gamut 0",
+      "inputHex": "FF0000",
+      "unclippedLinear": [
+        0.367322,
+        0.280085,
+        -0.01182
+      ],
+      "requiresClipping": true,
+      "outputHex": "A39000"
+    },
+    {
+      "name": "gamut 1",
+      "inputHex": "00FF00",
+      "unclippedLinear": [
+        0.860646,
+        0.672501,
+        0.04294
+      ],
+      "requiresClipping": false,
+      "outputHex": "EFD63A"
+    },
+    {
+      "name": "gamut 2",
+      "inputHex": "0000FF",
+      "unclippedLinear": [
+        -0.227968,
+        0.047413,
+        0.968881
+      ],
+      "requiresClipping": true,
+      "outputHex": "003DFB"
+    }
+  ],
+  "neutralMaxErrorLinear": 1.0000000000287557e-06,
+  "checks": {
+    "blackRemainsBlack": true,
+    "neutralRowsWithinPublishedRounding": true,
+    "all256SrgbValuesRoundTrip": true
+  },
+  "allChecksPassed": true
+}

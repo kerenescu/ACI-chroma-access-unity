@@ -1,0 +1,134 @@
+{
+  "kind": "CPU numerical reference, not a Unity render or observer study",
+  "simulation": "Tritanomaly",
+  "severity": 1.0,
+  "sourceUrl": "https://www.inf.ufrgs.br/~oliveira/pubs_files/CVD_Simulation/CVD_Simulation.html#Tutorial",
+  "sourceHtmlSha256": "379c549025f91ac05a611631114ff8202fa2d802bc29e15f79479c7985373346",
+  "matrixRows": [
+    [
+      1.255528,
+      -0.076749,
+      -0.178779
+    ],
+    [
+      -0.078411,
+      0.930809,
+      0.147602
+    ],
+    [
+      0.004733,
+      0.691367,
+      0.3039
+    ]
+  ],
+  "tritanLimit": "Approximate tritanomaly only. The original paper explicitly excludes tritanopia (sections 4.2.1 and 4.3).",
+  "sdrPolicy": "Decode sRGB, multiply column vector, clip linear RGB, encode sRGB, round half up",
+  "probeCases": [
+    {
+      "name": "patch 0",
+      "inputHex": "C84C4C",
+      "unclippedLinear": [
+        0.7067009337506072,
+        0.032650098851639345,
+        0.0746634762375916
+      ],
+      "requiresClipping": false,
+      "outputHex": "DB334D"
+    },
+    {
+      "name": "patch 1",
+      "inputHex": "4CC84C",
+      "unclippedLinear": [
+        0.03348992172779941,
+        0.5426176337964429,
+        0.42162553445016193
+      ],
+      "requiresClipping": false,
+      "outputHex": "33C3AE"
+    },
+    {
+      "name": "patch 2",
+      "inputHex": "4C4CC8",
+      "unclippedLinear": [
+        -0.01806671368412099,
+        0.14685640914620335,
+        0.22583513110653203
+      ],
+      "requiresClipping": true,
+      "outputHex": "006B83"
+    },
+    {
+      "name": "neutral 0",
+      "inputHex": "000000",
+      "unclippedLinear": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "requiresClipping": false,
+      "outputHex": "000000"
+    },
+    {
+      "name": "neutral 1",
+      "inputHex": "808080",
+      "unclippedLinear": [
+        0.2158605001138993,
+        0.21586050011389926,
+        0.21586050011389923
+      ],
+      "requiresClipping": false,
+      "outputHex": "808080"
+    },
+    {
+      "name": "neutral 2",
+      "inputHex": "FFFFFF",
+      "unclippedLinear": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "requiresClipping": false,
+      "outputHex": "FFFFFF"
+    },
+    {
+      "name": "gamut 0",
+      "inputHex": "FF0000",
+      "unclippedLinear": [
+        1.255528,
+        -0.078411,
+        0.004733
+      ],
+      "requiresClipping": true,
+      "outputHex": "FF000F"
+    },
+    {
+      "name": "gamut 1",
+      "inputHex": "00FF00",
+      "unclippedLinear": [
+        -0.076749,
+        0.930809,
+        0.691367
+      ],
+      "requiresClipping": true,
+      "outputHex": "00F7D9"
+    },
+    {
+      "name": "gamut 2",
+      "inputHex": "0000FF",
+      "unclippedLinear": [
+        -0.178779,
+        0.147602,
+        0.3039
+      ],
+      "requiresClipping": true,
+      "outputHex": "006B96"
+    }
+  ],
+  "neutralMaxErrorLinear": 0.0,
+  "checks": {
+    "blackRemainsBlack": true,
+    "neutralRowsWithinPublishedRounding": true,
+    "all256SrgbValuesRoundTrip": true
+  },
+  "allChecksPassed": true
+}

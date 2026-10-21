@@ -1,0 +1,82 @@
+{
+    "success": true,
+    "message": "Four captures, CPU/GPU simulation checks, palette isolation and restoration passed; minimum simulated Oklab distance increased. This is not observer validation.",
+    "timestampUtc": "2026-10-21T15:35:30.9113802Z",
+    "unityVersion": "6000.3.11f1",
+    "graphicsApi": "Direct3D12",
+    "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+    "colorSpace": "Linear",
+    "pipelineAsset": "Assets/Settings/PC_RPAsset.asset",
+    "scenePath": "Assets/Scenes/ControlledColors.unity",
+    "sceneHadUnsavedChanges": false,
+    "sceneHasUnsavedChangesAfterValidation": false,
+    "deuteranopiaRegressionPassed": true,
+    "stateRestored": true,
+    "previewSurvivedRegression": true,
+    "width": 960,
+    "height": 540,
+    "metric": "Euclidean Oklab distance on displayed simulated colors; exploratory proxy only",
+    "pairOrder": "0-1, 0-2, 1-2",
+    "originalHex": [
+        "C84C4CFF",
+        "4CC84CFF",
+        "4C4CC8FF"
+    ],
+    "experimentalHex": [
+        "BB5500FF",
+        "EE88FFFF",
+        "4C4CC8FF"
+    ],
+    "originalSimulatedHex": [
+        "8B8049FF",
+        "BDAC56FF",
+        "0057C6FF"
+    ],
+    "experimentalSimulatedHex": [
+        "8C7C00FF",
+        "94B3FCFF",
+        "0057C6FF"
+    ],
+    "originalSimulatedPairDistances": [
+        0.14798171361815649,
+        0.28333621306011105,
+        0.3886431512633101
+    ],
+    "experimentalSimulatedPairDistances": [
+        0.2977964053064308,
+        0.3190585100259927,
+        0.29749487739132277
+    ],
+    "originalMinimumDistance": 0.14798171361815649,
+    "experimentalMinimumDistance": 0.29749487739132277,
+    "originalColorDriftOklab": [
+        0.07120103421556579,
+        0.3923199643618461,
+        0.0
+    ],
+    "relativeLuminanceChanges": [
+        -0.009082510274286277,
+        -0.003613936720954114,
+        0.0
+    ],
+    "pairsWithReducedDistance": 1,
+    "originalSimulation": {
+        "differingPixels": 11664,
+        "pixelsOutsideTolerance": 0,
+        "maxRgbError": 1,
+        "alphaMismatches": 0
+    },
+    "experimentalSimulation": {
+        "differingPixels": 0,
+        "pixelsOutsideTolerance": 0,
+        "maxRgbError": 0,
+        "alphaMismatches": 0
+    },
+    "originalRestored": {
+        "differingPixels": 0,
+        "pixelsOutsideTolerance": 0,
+        "maxRgbError": 0,
+        "alphaMismatches": 0
+    },
+    "recolorPixelsOutsideTolerance": 0
+}
