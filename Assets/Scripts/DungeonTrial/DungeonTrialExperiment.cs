@@ -570,5 +570,87 @@ namespace ChromaAccess.DungeonTrial
         }
     }
 
-    
+    /// <summary>
+    /// Plain data written once for each answer. It deliberately records the
+    /// condition as separate fields so later analysis does not need to infer it
+    /// from a keyboard shortcut.
+    /// </summary>
+    public sealed class DungeonTrialResult
+    {
+        public string SessionId;
+        public int SessionSeed;
+        public int TrialNumber;
+        public DungeonTrialGameMode GameMode;
+        public string RoundCondition;
+        public string ConditionLabel;
+        public DungeonTrialPalette Palette;
+        public DungeonTrialPreview PreviewModel;
+        public bool ShapesEnabled;
+        public bool OutlineEnabled;
+        public int TargetColorIndex;
+        public int CorrectPosition;
+        public int Choice1ColorIndex;
+        public int Choice2ColorIndex;
+        public int Choice3ColorIndex;
+        public int SelectedPosition;
+        public int SelectedColorIndex;
+        public bool Correct;
+        public double ResponseTimeMilliseconds;
+        public DateTime RunStartedUtc;
+        public DateTime TimestampUtc;
+    }
+
+    public static class DungeonTrialCsv
+    {
+        public const string Header =
+            "schema_version,run_id,utc_started,schedule_seed,trial_number,game_mode,round_condition,condition,palette,preview_model,shapes_enabled,outline_enabled,target_color_index,correct_position,choice1_color_index,choice2_color_index,choice3_color_index,selected_position,selected_color_index,correct,response_time_ms,timestamp_utc";
+
+        public static string Format(DungeonTrialResult result)
+        {
+            if (result == null)
+                throw new ArgumentNullException(nameof(result));
+
+            return string.Join(",", new[]
+            {
+                "4",
+                Escape(result.SessionId),
+                result.RunStartedUtc.ToUniversalTime().ToString("O", CultureInfo.InvariantCulture),
+                result.SessionSeed.ToString(CultureInfo.InvariantCulture),
+                result.TrialNumber.ToString(CultureInfo.InvariantCulture),
+                result.GameMode.ToString(),
+                Escape(result.RoundCondition),
+                Escape(result.ConditionLabel),
+                result.Palette.ToString(),
+                result.PreviewModel.ToString(),
+                ToCsvBool(result.ShapesEnabled),
+                ToCsvBool(result.OutlineEnabled),
+                result.TargetColorIndex.ToString(CultureInfo.InvariantCulture),
+                result.CorrectPosition.ToString(CultureInfo.InvariantCulture),
+                result.Choice1ColorIndex.ToString(CultureInfo.InvariantCulture),
+                result.Choice2ColorIndex.ToString(CultureInfo.InvariantCulture),
+                result.Choice3ColorIndex.ToString(CultureInfo.InvariantCulture),
+                result.SelectedPosition.ToString(CultureInfo.InvariantCulture),
+                result.SelectedColorIndex.ToString(CultureInfo.InvariantCulture),
+                ToCsvBool(result.Correct),
+                result.ResponseTimeMilliseconds.ToString("0.000", CultureInfo.InvariantCulture),
+                result.TimestampUtc.ToUniversalTime().ToString("O", CultureInfo.InvariantCulture)
+            });
+        }
+
+        private static string ToCsvBool(bool value)
+        {
+            return value ? "1" : "0";
+        }
+
+        private static string Escape(string value)
+        {
+            if (string.IsNullOrEmpty(value))
+                return string.Empty;
+
+            if (value.IndexOfAny(new[] { ',', '"', '\n', '\r' }) < 0)
+                return value;
+
+            return "\"" + value.Replace("\"", "\"\"") + "\"";
+        }
+    }
 }
