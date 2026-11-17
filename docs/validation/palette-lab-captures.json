@@ -1,10 +1,10 @@
 {
     "success": true,
     "message": "Captured nine palettes in four modes, plus three shape-cue variants in four modes.",
-    "timestampUtc": "2026-10-21T15:53:57.0393400Z",
+    "timestampUtc": "2026-10-22T07:46:42.7603585Z",
     "unityVersion": "6000.3.11f1",
     "graphicsApi": "Direct3D12",
-    "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+    "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
     "colorSpace": "Linear",
     "width": 1440,
     "height": 540,
